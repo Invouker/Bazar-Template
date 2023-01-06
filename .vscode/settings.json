@@ -1,0 +1,11 @@
+{
+    "workbench.statusBar.visible": true,
+    "editor.suggest.showStatusBar": true,
+    "zenMode.hideStatusBar": false,
+    "git.enableStatusBarSync": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#3d3838",
+        "statusBar.noFolderBackground" : "#212121",
+        "statusBar.debuggingBackground": "#263238"
+    }
+}
