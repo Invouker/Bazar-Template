@@ -1,0 +1,198 @@
+@bg-color: #e4e4e4;
+@sidebar-color: #f2f2f2;
+
+ nav .navForm input {
+     color: red;
+}
+ body {
+     background-color: @bg-color;
+}
+ .red {
+     color: white;
+     background-color: red;
+}
+ .yellow {
+     color: white;
+     background-color: yellow;
+}
+ .container .contents {
+     margin: 5em 0em 1em 0em;
+     font-family: 'Barlow Semi Condensed', sans-serif;
+}
+ .sidebar {
+     background-color: @sidebar-color;
+     padding: 1em;
+}
+ .sidebar .title {
+     font-size: 20px;
+     font-weight: bold;
+}
+ .sidebar .content {
+     list-style-type: none;
+     font-size: 15px;
+}
+ .advert {
+     background-color: @sidebar-color;
+     padding: 1em;
+     margin-bottom: 1em;
+     border-bottom: .35em solid #cccccc;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+}
+ .advert .title a {
+     font-weight: bold;
+     font-size: 21px;
+     text-decoration: none;
+     color: black;
+     padding: 0em 0em .5em 0em;
+}
+ .advert .title a:hover {
+     color: gray;
+}
+ .advert .content {
+     margin-top: .1em;
+     position: relative;
+     font-size: 22px;
+     font-family: 'Oswald', sans-serif;
+     font-weight: 200;
+}
+ .advert .title .subTitle {
+     font-weight: normal;
+     font-size: 14px;
+     color: #595959;
+}
+
+.advert .title .subTitle a {
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+}
+
+.advert .title .subTitle a:hover {
+    color: #bfbfbf;
+}
+
+ article {
+     margin-right: 1em;
+     margin-right: 1em;
+}
+ .badge.text-bg-warning {
+     color: white !important;
+}
+ .adImage {
+     padding: .5em;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+ .price {
+     font-size: 20px;
+     background-color: @bg-color;
+     padding: .15em .25em .15em .25em;
+     border-radius: 7px;
+     font-weight: 600;
+     /* position: relative; *
+     top: -15px;*/
+     position: absolute;
+     bottom: 0px;
+     right: 10px;
+}
+ .tags .tag {
+     background-color: @bg-color;
+     padding: .2em;
+     font-size: 13px;
+     border-radius: 3px;
+     margin-right: .2em;
+}
+
+ .orange {
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+}
+
+.padding {
+    margin-top: 0.75em!important;
+}
+
+@footer-bg-color: #29293d;
+footer {
+    text-align: center;
+    color: white;
+    background-color: @footer-bg-color;
+    font-weight: 600;
+    padding: 1em;
+    margin-top: 2em;
+    font-family: 'Oswald', sans-serif;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    
+}
+
+footer .heart {
+    color: red;
+}
+
+footer .earth {
+    color: #33cc00;
+}
+
+.pagination li a{
+    color: gray!important;
+}
+
+@pagination-bg-color: #666699;
+
+.pagination li a.active{
+    color: white!important;
+    background-color: @pagination-bg-color;
+    border: 1px solid darken(@pagination-bg-color, 5%);
+}
+
+.pagination li a:hover{
+    color: gray!important;
+    background-color: lighten(@pagination-bg-color, 30%);
+    border: 1px solid lighten(@pagination-bg-color, 40%);
+}
+
+.contents .homeNav {
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    background-color: darken(@bg-color, 10%);
+    border-radius: 10px;
+    color: darken(gray, 10%);
+    margin-bottom: 1em;
+}
+
+
+.contents .thumbSize img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.contents .infoBar .title {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.contents .infoBar .content {
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 100%;
+    margin-bottom: 1em;
+}
+
+.contents .contact,
+.contents .userStats {
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 1em;
+}
